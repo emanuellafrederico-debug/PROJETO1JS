@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cadastro de filmes</title>
+</head>
+
+<body>
+    <div class="flexbox">
+        <header id="cabecalho">
+            <h1>Filmes.net</h1>
+        </header>
+        <br>
+        <div id="centro">
+            <div id="fundo">
+                <center><h2>Cadastrar filmes:</h2></center>
+                <input type="text" id="titulo" placeholder="Digite o título"><br>
+                <input type="number" id="ano" placeholder="Digite o ano de lançamento"><br>
+                <input type="text" id="classificacao" placeholder="Digite a classificação indicativa"><br><br>
+                <center><button id="btnCadastrar">CADASTRAR</button><br>
+                    <p id="confirma"></p>
+                </center>
+            </div>
+            <br><br>
+
+            <div id="fundo">
+                <div>
+                    <center><h3>Filtrar por classificação:</h3></center>
+                    <input type="text" id="filtrarClas" placeholder="Digite a classificação indicativa"><br>
+                    <center><button id="btnFiltrarClas">FILTRAR</button>
+                        <p id="filtroClas"></p>
+                    </center>
+                </div>
+                <br>
+
+                <div>
+                    <center><h3>Filtrar por ano de lançamento:</h3></center>
+                    <input type="number" id="filtrarAno" placeholder="Digite o ano de lançamento"><br>
+                    <center><button id="btnFiltrarAno">FILTRAR</button>
+                        <p id="filtroAno"></p>
+                    </center>
+                </div>
+                <br>
+
+                <div>
+                    <center><p id="lista"></p></center>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
